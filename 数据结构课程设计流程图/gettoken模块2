@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T01:21:22.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="tbfpKIT7UPPGFXYp6H23" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T01:21:40.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="0ZB53AuhKcmnUsTAx7qp" version="15.4.1" type="github">
   <diagram id="GziYTSQ103UQ4Jwk4Gw7" name="第 1 页">
     <mxGraphModel dx="1102" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q6opiJoAKsYkhn5GJz0b-21" value="不同" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=22;" parent="1" source="Q6opiJoAKsYkhn5GJz0b-15" target="Q6opiJoAKsYkhn5GJz0b-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-0.1111" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Q6opiJoAKsYkhn5GJz0b-15" value="&lt;span&gt;依次和关键&lt;br&gt;字比较&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="312" y="680" width="136" height="80" as="geometry" />
