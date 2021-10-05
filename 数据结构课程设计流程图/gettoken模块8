@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T09:39:25.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="LHrT_zGVADV_eGxAqsu0" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T09:43:18.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="dS4hg_Ssx8M-KjjkzEBX" version="15.4.1" type="github">
   <diagram id="AigYUoJTJqvprwqGTpQf" name="第 1 页">
     <mxGraphModel dx="1929" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
             <mxPoint x="150" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kyARMlSPM_DB5tmbZohu-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-8" target="kyARMlSPM_DB5tmbZohu-20">
+        <mxCell id="kyARMlSPM_DB5tmbZohu-21" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-8" target="kyARMlSPM_DB5tmbZohu-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kyARMlSPM_DB5tmbZohu-8" value="&lt;font style=&quot;font-size: 22px&quot;&gt;c==&#39;!&#39;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -48,6 +48,9 @@
         <mxCell id="kyARMlSPM_DB5tmbZohu-23" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-20" target="kyARMlSPM_DB5tmbZohu-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-33" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-20" target="kyARMlSPM_DB5tmbZohu-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kyARMlSPM_DB5tmbZohu-20" value="&lt;font style=&quot;font-size: 22px&quot;&gt;c==&#39;+&#39;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="289" y="230" width="120" height="80" as="geometry" />
         </mxCell>
@@ -57,14 +60,49 @@
         <mxCell id="kyARMlSPM_DB5tmbZohu-22" value="&lt;span style=&quot;font-size: 15px&quot;&gt;addWord(c,&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;token_text);&lt;br&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 15px ; line-height: 18.75px&quot;&gt;c = getc(fp);&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="270.25" y="360" width="157.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kyARMlSPM_DB5tmbZohu-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-24" target="kyARMlSPM_DB5tmbZohu-26">
+        <mxCell id="kyARMlSPM_DB5tmbZohu-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-24" target="kyARMlSPM_DB5tmbZohu-26">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-29" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-24" target="kyARMlSPM_DB5tmbZohu-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kyARMlSPM_DB5tmbZohu-24" value="c==&#39;+&#39;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="287.75" y="440" width="121.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kyARMlSPM_DB5tmbZohu-26" value="&lt;span style=&quot;font-size: 15px&quot;&gt;addWord(c,&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;token_text);&lt;br&gt;返回PULSPULS&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="263.59" y="570" width="169.56" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-30" value="ungetc(c,fp)&lt;br&gt;返回PLUS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="450" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-42" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-32" target="kyARMlSPM_DB5tmbZohu-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-32" value="&lt;font style=&quot;font-size: 22px&quot;&gt;c==&#39;-&#39;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="577.5" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-35" target="kyARMlSPM_DB5tmbZohu-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-35" value="&lt;span style=&quot;font-size: 15px&quot;&gt;addWord(c,&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;token_text);&lt;br&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 15px ; line-height: 18.75px&quot;&gt;c = getc(fp);&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="558.75" y="790" width="157.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-43" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-38" target="kyARMlSPM_DB5tmbZohu-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-44" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="kyARMlSPM_DB5tmbZohu-38" target="kyARMlSPM_DB5tmbZohu-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-38" value="c==&#39;-&#39;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="576.25" y="880" width="121.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-39" value="&lt;span style=&quot;font-size: 15px&quot;&gt;addWord(c,&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;token_text);&lt;br&gt;返回PULSPULS&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="552.72" y="1010" width="169.56" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyARMlSPM_DB5tmbZohu-40" value="ungetc(c,fp)&lt;br&gt;返回PLUS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="414" y="890" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
